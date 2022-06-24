@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Build'){
              steps{
-                sh 'docker build -t first-build ..'
+                sh 'docker build -t first-build .'
                 
             }
         }
